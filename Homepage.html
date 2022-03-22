@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tuition centre</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="Homepage.css"/>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop/*sets or returns the number of pixels an element's content is scrolled vertically*/ > 20 || document.documentElement.scrollTop/*returns the documentElement of the document, as an Element object.*/ > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</head>
+<body>
+<div class="top">
+<a href="#home" class="home"><b>LEGENDEND</b></a>
+<a href="about.html" class="about">ABOUT</a>
+<a href="pricing.html" class="pricing"><img src="dollar.png" id="dollar">PRICING</a>
+<a href="contact.html" class="contact"><img src="telephone.png" id="mail">CONTACT</a>
+</div>
+<div class="secondtop">
+<p id="start">Start something that matters</p>
+<p id="motivation">Start looking for the grades you want, and stop wasting the time impeding your grades</p>
+<a href="#welcomee" class="button">Learn more and start today</a>
+</div>
+<div class="contents">
+<div class="thirdbottom" id="welcomee">
+<p id="welcome"><img src="bulletpoint.png" id="bullet">Welcome to Official Website of</p>
+<p id="welcome1">LEGENDEND</p>
+</div>
+<div class="addin">
+<img src="tuition.jpg" id="tuitionpic"/>
+</div>
+<div class="secondbottom">
+<h2 id="introo">Singapore's most flexible tuition</h2>
+<p id="help">LEGENDEND ensures that all students will be able to attend the tuition sessions with the ease of</p>
+<p id="help1">choosing their own timeslot. Furthermore, you will be able to choose the number  of hours that</p>
+<p id="help1">you would like to have for the students to attend the tuition.</p>
+</div>
+<div class="introduction">
+<h2 id=introductions>Introduction to LEGENDEND</h2>
+<p id="context">It is a tuition center which only conduct one-to-one session as I believe that with one-to-one guidance</p>
+<p id="context1">and teaching, it will be able to increase the student's focus better. It is not just an ordinary tuition</p>
+<p id="context1">which conduct only classes, but I will help out with student's school homework also as I believe</p>
+<p id="context1">that tuition classes are meant to help out with student's difficulties</p>
+</div>
+<div class="why">
+<h2 id="reason">Why this exclusive tuition?</h2>
+<ul class="exclusive">
+<li>It is one of the cheapest tuition you can find in Singapore</li>
+<li>Proven results to show excellent results</li>
+<li>Helped many to improve their grades significantly</li>
+</ul>
+</div>
+</div>
+<div class="testimonial">
+  <p id="testimonials">Testimonials</p>
+  <img class="mySlides" src="Screenshot (108).png" id="testimonial1">
+  <img class="mySlides" src="Screenshot (101).png" id="testimonial2">
+  <img class="mySlides" src="Screenshot (111).png" id="testimonial3">
+</div>
+<div class="signup">
+<p id="waiting">Don't wait anymore!!</p>
+<p id="link"><img src="arrowdown.png" id="arrowdown1"/>Sign up in the link below!!<img src="arrowdown.png" id="arrowdown2"/></p>
+<button id="signingup"><a href="https://docs.google.com/forms/d/e/1FAIpQLScBW1RFaFyz9rzI09rRt5pkm5tELIKFqfT9GANYoNT6FlCL8w/viewform?usp=sf_link" target="_blank">Press This Button</a></button>
+<p></p>
+<p></p>
+</div>
+<div class="end">
+<p id="terms"><a href="termsandconditions.html" class="terms" target="blank">Terms and Conditions</a></p>
+<p id="terms"><a href="privacy.html" target="blank">Privacy Policy</a></p>
+<p id="terms"><a href="disclaimer.html" target="blank">Disclaimer</a></p>
+</div>
+<div class="Importantthings">
+<p>Important Thing To Note:</p>
+<p>I am here to help students who have difficulties in their studies. I strongly believe that with the student's mind and character, </p>
+<p id="first">there will be better results than before. However, I strongly do not believe in miracle that joining my tuition can guarantee</p>
+<p id="first">students to achieve better results as I believe that students also need to play the part of trying hard and paying off in the end.</p>
+<p id="first">Nevertheless, I will still try my best to help as much as possible so that each and every student will not be neglected. If you</p>
+<p id="first">have any questions, feel free to email me me @linjinwei2802@gmail.com. Thank you for your cooperation. I hope this will help.</p>
+<p id="educational">LEGENDEND Education-Copyright &copy; legendend.com. All Rights Reserved</p>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrowup.png" id="arrowup"/></button>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000); //3 seconds interval
+}
+</script>
+</body>
+</html>

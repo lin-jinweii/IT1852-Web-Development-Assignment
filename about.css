@@ -1,0 +1,290 @@
+body{
+  margin:0;
+}
+.top{
+  overflow:hidden;
+  background-color:grey;
+}
+.top a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top a:hover {
+  background-color:white;
+  color: black;
+}
+.about{
+  margin-left:600px;
+}
+.pricing{
+  margin-left:60px;
+}
+#dollar{
+  height:20px;
+  width:20px;
+  margin-bottom:-4px;
+  margin-right:5px;
+}
+#mail{
+  height:20px;
+  width:20px;
+  margin-bottom:-4px;
+  margin-right:5px;
+}
+.contact{
+  margin-left:60px;
+}
+.introduction{
+  background-color:#F8F9F9;
+  overflow:hidden;
+}
+#intro{
+  text-align:center;
+  font-size:200%;
+  font-family:sans-serif;
+  margin-top:70px;
+  margin-bottom:80px;
+}
+.rules{
+  background-color:#F8F9F9;
+  overflow:hidden;
+}
+#mission{
+  height:30px;
+  width:45px;
+  margin-bottom:-2px;
+  margin-left:250px;
+}
+#missioning{
+  display:inline-block;
+  font-size:200%;
+  margin-bottom:0px;
+}
+#vision{
+  height:30px;
+  width:43px;
+  margin-bottom:-2px;
+  margin-left:480px;
+}
+#visioning{
+  display:inline-block;
+  font-size:200%;
+}
+.contents{
+  background-color:#F8F9F9;
+  oveflow:hidden;
+}
+#contentinmission{
+  display:inline-block;
+  font-size:150%;
+  margin-left:120px;
+  margin-bottom:-20px;
+  margin-top:2px;
+}
+#contentinvision{
+  display:inline-block;
+  font-size:150%;
+  margin-left:210px;
+  margin-bottom:-20px;
+  margin-top:2px;
+}
+.secondcontents{
+  background-color:#F8F9F9;
+  overflow:hidden;
+}
+#ndcontent{
+  display:inline-block;
+  font-size:150%;
+  margin-left:110px;
+  margin-top:2px;
+}
+#ndcontents{
+  display:inline-block;
+  font-size:150%;
+  margin-left:230px;
+  margin-top:2px;
+  margin-bottom:180px;
+}
+.backgroundinfo{
+  background-color:#F0F3F4;
+  overflow:hidden;
+}
+#startintro{
+  text-align:center;
+  font-size:200%;
+  font-family:sans-serif;
+  margin-top:50px;
+}
+.history{
+  background-color:#F0F3F4;
+  overflow:hidden;
+}
+#profilepic{
+  float:left;
+  margin-left:130px;
+  margin-top:30px;
+}
+#founded{
+  margin-left:450px;
+  margin-top:120px;
+  font-size:130%;
+}
+#strongly{
+  margin-left:450px;
+  font-size:130%;
+  margin-top:-9px;
+}
+#morehelp{
+  margin-left:450px;
+  font-size:130%;
+  margin-top:-9px;
+}
+#gethelp{
+  margin-left:450px;
+  font-size:130%;
+  margin-top:-9px;
+}
+#scroll{
+  margin-left:450px;
+  font-size:130%;
+  margin-top:-9px;
+  margin-bottom:200px;
+}
+#dowhat{
+  text-align:center;
+  font-size:200%;
+  font-family:sans-serif;
+  margin-top:50px;
+}
+#students{
+  width:540px;
+  height:310px;
+  float:left;
+  margin-left:20px;
+  margin-top:20px;
+}
+#title{
+  font-size:180%;
+  margin-left:600px;
+  margin-top:130px;
+  font-family:sans-serif;
+}
+#firsts{
+  font-size:120%;
+  margin-left:600px;
+  margin-top:0px;
+}
+#seconds{
+  font-size:120%;
+  margin-top:-15px;
+  margin-left:600px;
+}
+.continue{
+  clear:both;
+}
+#boss{
+  float:right;
+  margin-right:20px;
+  width:560px;
+  height:280px;
+  margin-top:-70px;
+}
+#title2{
+  font-size:180%;
+  margin-left:30px;
+  margin-top:260px;
+  font-family:sans-serif;
+}
+#firsts2{
+  font-size:120%;
+  margin-left:30px;
+  margin-top:0px;
+}
+#seconds2{
+  font-size:120%;
+  margin-top:-15px;
+  margin-left:30px;
+}
+#thirds2{
+  font-size:120%;
+  margin-top:-15px;
+  margin-left:30px;
+  margin-bottom:150px;
+}
+.video{
+  background-color:#F0F3F4;
+  overflow:hidden;
+}
+#videoing{
+  text-align:center;
+  font-size:200%;
+  font-family:sans-serif;
+  margin-top:80px;
+}
+#videocontent{
+  text-align:center;
+  font-size:150%;
+  margin-top:-10px;
+}
+#videoplaying{
+  margin-left:280px;
+  margin-bottom:150px;
+}
+.end{
+  clear:both;
+  background-color:black;
+  overflow:hidden;
+  text-decoration:none;
+}
+#terms{
+  display:inline-block;
+  margin-left:170px;
+  color:white;
+  text-decoration:none;
+  font-size:150%;
+}
+#terms a{
+  color:white;
+}
+#educational{
+  text-align:center;
+  color:white;
+  margin-top:40px;
+}
+.Importantthings{
+  color:white;
+  text-align:center;
+  display:block;
+  background-color:black;
+  overflow:hidden;
+}
+#first{
+  margin-top:-10px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  height:50px;
+  width:54px;
+}
+#arrowup{
+  width:23px;
+  height:25px;
+}
+#myBtn:hover {
+  background-color:white;
+}

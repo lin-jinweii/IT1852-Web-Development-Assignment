@@ -1,0 +1,235 @@
+body{
+  margin:0;
+}
+.top{
+  overflow:hidden;
+  background-color:grey;
+}
+.top a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top a:hover {
+  background-color:white;
+  color: black;
+}
+.about{
+  margin-left:600px;
+}
+.pricing{
+  margin-left:60px;
+}
+#dollar{
+  height:20px;
+  width:20px;
+  margin-bottom:-4px;
+  margin-right:5px;
+}
+#mail{
+  height:20px;
+  width:20px;
+  margin-bottom:-4px;
+  margin-right:5px;
+}
+.contact{
+  margin-left:60px;
+}
+#costoftuition{
+  height:500px;
+  width:1000px;
+  margin-left:80px;
+}
+#statisticss{
+  margin-left:40px;
+  font-size:200%;
+  margin-top:30px;
+}
+#look{
+  margin-left:40px;
+  font-size:120%;
+}
+#increase{
+  margin-left:40px;
+  font-size:120%;
+  margin-top:-15px;
+}
+#below{
+  margin-left:40px;
+  font-size:120%;
+  margin-top:50px;
+}
+#rates{
+  font-size:200%;
+  font-family:sans-serif;
+  margin-left:40px;
+  margin-bottom:4px;
+  margin-top:50px;
+}
+table{
+  border-collapse:collapse;
+  border-color:green;
+  text-align:center;
+  margin-left:40px;
+  background-color:white;
+  width:1000px;
+  height:400px;
+}
+#top{
+  background-color:#AED6F1;
+}
+#change{
+  background-color:#F8F9F9;
+}
+#changing{
+  font-size:70%;
+  margin-left:40px;
+  margin-top:2px;
+}
+#calculator{
+  font-size:200%;
+  font-family:sans-serif;
+  margin-left:40px;
+  margin-top:50px;
+}
+#dk{
+  font-size:120%;
+  margin-left:40px;
+}
+#solution{
+  font-size:120%;
+  margin-left:40px;
+  margin-top:-15px;
+}
+#helpyou{
+  margin-left:40px;
+  height:30px;
+  width:180px;
+}
+.signup{
+  background-color:#D3D3D3;
+  overflow:hidden;
+  margin-top:20px;
+}
+#waiting{
+  font-size:200%;
+  text-align:center;
+  font-weight: bold;
+  text-decoration:underline;
+}
+#link{
+  font-size:200%;
+  text-align:center;
+}
+#arrowdown1{
+  height:30px;
+  width:30px;
+  margin-right:4px;
+  position: relative;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 10000;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@-webkit-keyframes example {
+  0%   {left:0px; top:0px;}
+  75%  {left:0px; top:20px;}
+  100% {left:0px; top:0px;}
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  75%  {left:0px; top:20px;}
+  100% {left:0px; top:0px;}
+}
+#arrowdown2{
+  height:30px;
+  width:30px;
+  margin-right:4px;
+  position: relative;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 10000;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@-webkit-keyframes example {
+  0%   {left:0px; top:0px;}
+  75%  {left:0px; top:20px;}
+  100% {left:0px; top:0px;}
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  75%  {left:0px; top:20px;}
+  100% {left:0px; top:0px;}
+}
+#signingup{
+  height:50px;
+  width:400px;
+  margin-left:430px;
+  margin-bottom:50px;
+}
+#signingup a{
+  text-decoration:none;
+  font-size:150%;
+}
+a:hover{
+  color:blue;
+}
+.end{
+  clear:both;
+  background-color:black;
+  overflow:hidden;
+  text-decoration:none;
+}
+#terms{
+  display:inline-block;
+  margin-left:170px;
+  color:white;
+  text-decoration:none;
+  font-size:150%;
+}
+#terms a{
+  color:white;
+}
+#educational{
+  text-align:center;
+  color:white;
+  margin-top:40px;
+}
+.Importantthings{
+  color:white;
+  text-align:center;
+  display:block;
+  background-color:black;
+  overflow:hidden;
+}
+#first{
+  margin-top:-10px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  height:50px;
+  width:54px;
+}
+#arrowup{
+  width:23px;
+  height:25px;
+}
+#myBtn:hover {
+  background-color:white;
+}

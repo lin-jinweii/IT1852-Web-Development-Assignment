@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tuition centre</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="pricing.css"/>
+<script>
+function myFunction() {
+  var budget = prompt("Please enter your budget for a month", "0");
+  var education = prompt("Please enter your educational level");
+  if (education == "Primary 1" || education == "Primary 2" || education == "Primary 3"){
+    var amount = budget/10;
+    alert("You can afford to have " + Math.floor(amount) + " hours of tuition");
+  }
+  else if(education == "Primary 4" || education == "Primary 5" || education == "Primary 6"){
+    var amount = budget/13;
+    alert("You can afford to have " + Math.floor(amount) + " hours of tuition");
+  }
+  else if(education == "Secondary 1" || education == "Secondary 2"){
+    var amount = budget/15;
+    alert("You can afford to have " + Math.floor(amount) + " hours of tuition");
+  }
+  else if(education == "Secondary 3" || education == "Secondary 4" || education == "Secondary 5"){
+    var amount = budget/18;
+    alert("You can afford to have " + Math.floor(amount) + " hours of tuition");
+  }
+  else{
+    alert("You have input an invalid education level. Please try again later.");
+  }
+}
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</head>
+<body>
+<div class="top">
+<a href="Homepage.html" class="home"><b>LEGENDEND</b></a>
+<a href="about.html" class="about">ABOUT</a>
+<a href="#pricing" class="pricing"><img src="dollar.png" id="dollar">PRICING</a>
+<a href="contact.html" class="contact"><img src="telephone.png" id="mail">CONTACT</a>
+</div>
+<div class="statistics">
+<img src="costoftuition.webp" id="costoftuition"/>
+</div>
+<div class="explain">
+<h2 id="statisticss">Rising Cost</h2>
+<p id="look">According to the statistics above, the cost of education has increased tremendously over the past 30 years.</p>
+<p id="increase">Due to the increasing cost, we have tried our best to give our tuition the most affordable price for all of you.</p>
+<p id="below">Below shows the tuition rates:</p>
+</div>
+<div class="title">
+<p id="rates">Tuition Rates</p>
+</div>
+<div class="table">
+<table border="1">
+<tr id="top"><td><b>Education Level</b></td><td><b>No. of subjects</b></td><td><b>Subjects</b></td><td><b>Hourly Rates</b></td></tr>
+<tr id="change"><td>Primary 1</td><td rowspan="6">4</td><td rowspan="6">English, Math, Science and Chinese</td><td rowspan="3">$10</td></tr>
+<tr id="change"><td>Primary 2</td></tr>
+<tr id="change"><td>Primary 3</td></tr>
+<tr id="change"><td>Primary 4</td><td rowspan="3">$13</td></tr>
+<tr id="change"><td>Primary 5</td></tr>
+<tr id="change"><td>Primary 6</td></tr>
+<tr id="change"><td>Secondary 1</td><td rowspan="2">5</td><td rowspan="2">English, Math, Science, Chinese and Humanities</td><td rowspan="2">$15</td></tr>
+<tr id="change"><td>Secondary 2</td>
+<tr id="change"><td>Secondary 3</td><td rowspan="3">8</td><td rowspan="3">English, Maths(A&E), Science(Bio, Phy & Chem), Chinese and Humanities</td><td rowspan="3">$18</td>
+<tr id="change"><td>Secondary 4</td></tr>
+<tr id="change"><td>Secondary 5</td></tr>
+</table>
+<p id="changing"><i>*This may change accordingly depending on situations</i></p>
+</div>
+<div class="calculate">
+<h2 id="calculator">Tuition Rate Calculator</h2>
+<p id="dk">Still don't know how many hours should you go for the tuition?</p>
+<p id="solution">Here is a solution to help you:</p>
+<button onclick="myFunction()" id="helpyou">Click here to find out</button>
+</div>
+<div class="signup">
+<p id="waiting">So what are you waiting for?</p>
+<p id="link"><img src="arrowdown.png" id="arrowdown1"/>Sign up in the link below!!<img src="arrowdown.png" id="arrowdown2"/></p>
+<button id="signingup"><a href="https://docs.google.com/forms/d/e/1FAIpQLScBW1RFaFyz9rzI09rRt5pkm5tELIKFqfT9GANYoNT6FlCL8w/viewform?usp=sf_link" target="_blank">Press This Button</a></button>
+<p></p>
+<p></p>
+</div>
+<div class="end">
+<p id="terms"><a href="termsandconditions.html" class="terms" target="blank">Terms and Conditions</a></p>
+<p id="terms"><a href="privacy.html" target="blank">Privacy Policy</a></p>
+<p id="terms"><a href="disclaimer.html" target="blank">Disclaimer</a></p>
+</div>
+<div class="Importantthings">
+<p>Important Thing To Note:</p>
+<p>I am here to help students who have difficulties in their studies. I strongly believe that with the student's mind and character, </p>
+<p id="first">there will be better results than before. However, I strongly do not believe in miracle that joining my tuition can guarantee</p>
+<p id="first">students to achieve better results as I believe that students also need to play the part of trying hard and paying off in the end.</p>
+<p id="first">Nevertheless, I will still try my best to help as much as possible so that each and every student will not be neglected. If you</p>
+<p id="first">have any questions, feel free to email me me @linjinwei2802@gmail.com. Thank you for your cooperation. I hope this will help.</p>
+<p id="educational">LEGENDEND Education-Copyright &copy; legendend.com. All Rights Reserved</p>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrowup.png" id="arrowup"/></button>
+</body>
+</html>

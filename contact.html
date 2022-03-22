@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tuition centre</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="contact.css"/>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</head>
+<body>
+<div class="top">
+<a href="Homepage.html" class="home"><b>LEGENDEND</b></a>
+<a href="about.html" class="about">ABOUT</a>
+<a href="pricing.html" class="pricing"><img src="dollar.png" id="dollar">PRICING</a>
+<a href="#contact" class="contact"><img src="telephone.png" id="mail">CONTACT</a>
+</div>
+<div class="contents">
+<div class="contacts">
+<p id="contactme">CONTACT</p>
+<p id="questions">Got any questions? Feel free to ask me</p>
+<p id="emailing"><img src="email4.png" id="email">Email: linjinwei2802@gmail.com</p>
+<p id="locationing"><img src="location3.png" id="location">Yishun, Singapore</p>
+<p id="phoning"><img src="telephone2.png" id="telephone">Phone: +65 98656281</p>
+<form id="submit">
+<input type="text" name="name" size="110" placeholder="Name" id="name" required/><br>
+<input type="text" name="email" size="110" placeholder="Email" id="emails" required/><br>
+<input type="text" name="subject" size="110" placeholder="Subject" id="subject" required/><br>
+<input type="text" name="message" size="110" placeholder="Message" id="message" required/><br>
+<p><input type="submit" value="Submit" id="submit2" onclick="displayForm()"/></p>
+</form>
+<div class="end">
+<p id="terms"><a href="termsandconditions.html" class="terms" target="blank">Terms and Conditions</a></p>
+<p id="terms"><a href="privacy.html" target="blank">Privacy Policy</a></p>
+<p id="terms"><a href="disclaimer.html" target="blank">Disclaimer</a></p>
+</div>
+<div class="Importantthings">
+<p>Important Thing To Note:</p>
+<p>I am here to help students who have difficulties in their studies. I strongly believe that with the student's mind and character, </p>
+<p id="first">there will be better results than before. However, I strongly do not believe in miracle that joining my tuition can guarantee</p>
+<p id="first">students to achieve better results as I believe that students also need to play the part of trying hard and paying off in the end.</p>
+<p id="first">Nevertheless, I will still try my best to help as much as possible so that each and every student will not be neglected. If you</p>
+<p id="first">have any questions, feel free to email me me @linjinwei2802@gmail.com. Thank you for your cooperation. I hope this will help.</p>
+<p id="educational">LEGENDEND Education-Copyright &copy; legendend.com. All Rights Reserved</p>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrowup.png" id="arrowup"/></button>
+</div>
+<script>
+function displayForm(){
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("emails").value;
+  var subject = document.getElementById("subject").value;
+  var message = document.getElementById("message").value;
+  var all = ("Your name: "+ name + "<br>" + "Your Email: " + email + "<br>" + "Your subject: " + subject + "<br>" + "Your message: " + message + "<br>");
+  document.getElementById("submit").innerHTML = all;
+}
+</script>
+</body>
+</html>
